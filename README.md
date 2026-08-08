@@ -1,10 +1,3 @@
----
-title: AI Skin Specialist
-sdk: gradio
-app_file: app.py
-pinned: false
----
-
 # AI-Skin-Specialist
 
 AI Skin Specialist is a multimodal medical-assistant prototype that combines:
