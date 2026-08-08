@@ -40,7 +40,7 @@ This project is implemented in four phases.
 4. Phase 4: UI and Frontend
 	- Core file: main.py
 	- Responsibility: orchestrate the full user journey in Gradio
-	- UI work: Gradio layout, styling, input/output binding
+	- UI work: Gradio layout, styling, input/output binding, and Google Stitch design handoff assets
 
 ### Implementation Phase Diagram
 
@@ -113,6 +113,7 @@ flowchart LR
 
 1. Frontend and orchestration
 	- Gradio for UI blocks, inputs, outputs, and workflow wiring
+	- Google Stitch for UI design architecture and implementation-phase visualization assets
 	- Python 3.13 runtime
 
 2. Audio capture and local processing
