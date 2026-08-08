@@ -1,0 +1,14 @@
+# Secret files
+.env
+.env.*
+*.env.local
+*.env.development
+*.env.production
+
+# Keep safe template files in repo
+!sample.env
+
+# Python virtual env and cache
+.venv/
+__pycache__/
+*.pyc
