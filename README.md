@@ -1,3 +1,10 @@
+---
+title: AI Skin Specialist
+sdk: gradio
+app_file: app.py
+pinned: false
+---
+
 # AI-Skin-Specialist
 
 AI Skin Specialist is a multimodal medical-assistant prototype that combines:
@@ -206,6 +213,19 @@ Populate these in .env:
 	- Upload skin image
 	- Upload skin video
 	- Click Analyze Concern
+
+## Deploy to Hugging Face Spaces
+
+1. Push this repository to your Space repository URL
+2. In Space Settings, add secrets for:
+	- GEMINI_API_KEY
+	- GROQ_API_KEY
+	- DEEPGRAM_API_KEY
+	- MINIMAX_API_KEY (optional)
+3. Space build will use:
+	- app.py as entrypoint
+	- requirements.txt for Python dependencies
+	- packages.txt for system packages
 
 ## Local Troubleshooting
 

@@ -1,0 +1,9 @@
+anthropic>=0.120.2
+deepgram-sdk>=7.6.0
+google-genai>=2.16.0
+gradio>=6.22.0
+groq>=1.6.0
+pydub>=0.25.1
+python-dotenv>=1.2.2
+speechrecognition>=3.17.0
+pillow>=10.0.0
